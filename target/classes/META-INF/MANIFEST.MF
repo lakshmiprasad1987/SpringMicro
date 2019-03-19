@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: SpringMicro
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: blpbae
+Implementation-Vendor-Id: com.bp
+Build-Jdk: 1.8.0_25
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/SpringMicro
+Created-By: Maven Integration for Eclipse
+
