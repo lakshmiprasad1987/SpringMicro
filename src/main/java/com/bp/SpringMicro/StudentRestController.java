@@ -13,7 +13,7 @@ public class StudentRestController {
 	 
 	@GetMapping("/students/getEnv")
 	public String retrieveEnvironmentForStudent() {
-		return _applicationConfig.getEnv();
+		return _applicationConfig.getEnv()+"-"+_applicationConfig.getMessage();
 	}
 
 }
