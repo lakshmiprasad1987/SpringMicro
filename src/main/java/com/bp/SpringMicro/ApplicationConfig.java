@@ -12,6 +12,9 @@ import org.springframework.validation.annotation.Validated;
 public class ApplicationConfig {
     @NotNull
     private String env;
+	
+	 @NotNull
+    private String message;
 
 	public String getEnv() {
 		return env;
@@ -21,6 +24,13 @@ public class ApplicationConfig {
 		this.env = env;
 	}
  
+	public String getMessage() {
+		return message;
+	}
+
+	public void setMessage(String message) {
+		this.message = message;
+	}
     
     
 }
